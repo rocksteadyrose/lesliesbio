@@ -2,55 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Leslie's Bio</title>
-
-    <style>
-        .container {
-        background-color:aquamarine;
-        }
-
-        h1 {
-            text-align: center;
-            background-color: pink;
-        }
-
-        .pic {
-            padding: 10px;
-            border: 20px;
-            border-color: violet;
-        }
-
-        .left-side {
-            float: left;
-            background-color:aquamarine;
-        }
-
-        .contact {
-            padding-top: 10px;
-            float: right;
-            background-color:aquamarine;
-        }
-
-    </style>
 </head>
+
 <body>
-    <div class="container">
+     <header>
         <h1>Leslie's Bio</h1>
-        <div class="left-side">
-        <h2>Leslie Rose</h2>
-        <img class="pic" src="https://avatars3.githubusercontent.com/u/34491285?s=460&v=4" width="300" alt="my_pic">
-        <p class="bio">Leslie was born in Dallas, TX in 1986. She loves spending time with her family, walking her dog, and learning to code - yay!</p>
-        </div>
-        <div class="contact"
-        <h2>Contact Info</h2>
-        <ul>
-            <li>Email: <a href="mailto:lesliemadelinerose@gmail.com">lesliemadelinerose@gmail</a></li>
-            <li>Github: <a href="https://github.com/rocksteadyrose">Rocksteadyrose</a></li>
-            <li>Portfolio: Coming soon!</li>    
-        </ul>
-        </div>
+    </header>
+
+    <div class="container">
+
+        <section id="main-bio">
+            <h2>Leslie Rose</h2>
+            <img id="bio-image" src="https://avatars3.githubusercontent.com/u/34491285?s=460&v=4" alt="Leslie">
+            <p>Leslie was born in Dallas, TX in 1986. She loves spending time with her family, walking her dog, and learning to code - yay!</p>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Info</h2>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:lesliemadelinerose@gmail.com">lesliemadelinerose@gmail</a></li>
+                <li><strong>Github:</strong> <a href="https://github.com/rocksteadyrose" target="_blank">Rocksteadyrose</a></li>
+                <li><strong>Portfolio: </strong>Coming soon!</li>    
+            </ul>
+        </section>
     </div>
+
 </body>
+
 </html> 
